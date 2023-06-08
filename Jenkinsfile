@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'python3 cal.py'
+        sh 'python3 pycode.py'
       }
     }
   }
