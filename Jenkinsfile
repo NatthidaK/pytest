@@ -8,7 +8,7 @@ pipeline {
     }
     stage('RunningPy') {
       steps {
-        sh 'python3 pycode.py'
+        sh 'python3 MatricPy.py'
       }
     }
   }
